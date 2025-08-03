@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Weather from './components/Weather';
+import Weather from "./Weather";
 import './App.css'; 
 const App = () => {
   const [query, setQuery] = useState('');
