@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Weather from './components/Weather';
-import './App.css'; // Optional: for styling
-
+import './App.css'; 
 const App = () => {
   const [query, setQuery] = useState('');
   const [weatherData, setWeatherData] = useState(null);
 
-  const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your OpenWeatherMap API key
+  const API_KEY = 'YOUR_API_KEY_HERE'; 
 
   const fetchWeather = async (e) => {
     e.preventDefault();
