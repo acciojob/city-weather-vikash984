@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search {
+  padding: 10px;
+  width: 200px;
+}
+
+.weather {
+  margin-top: 20px;
+}
